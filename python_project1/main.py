@@ -21,5 +21,5 @@ elif(computer ==-1 and you ==0):
         print("you lose")
 else:
        print("somtheing went wrong")
-    
+       
 
