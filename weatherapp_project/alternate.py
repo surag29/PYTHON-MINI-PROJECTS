@@ -4,7 +4,7 @@ from config import API_KEY
 
 city = input("ENTER CITY NAME: ")
 
-url = f"https://api.weatherapi.com/v1/current.json?key=3c121dad148e4686af3100053251411&q={city}"
+url = f"https://api.weatherapi.com/v1/current.json?key={API_KEY}&q={city}"
 
 try:
     r = requests.get(url)
